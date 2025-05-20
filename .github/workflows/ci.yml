@@ -19,6 +19,6 @@ jobs:
          python -m pip install --upgrade pip
          pip install -r requirements.txt
 
-    - simulates test
+    - name: simulates test
       run: |
         echo "CI is working - test would go here"
